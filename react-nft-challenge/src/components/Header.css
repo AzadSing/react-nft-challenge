@@ -1,0 +1,67 @@
+.header {
+    color: white;
+    font: 12px;
+    height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+}
+
+.header > div{
+    margin: 10px;
+}
+
+
+.punkLogo{
+    width: 100px;
+    flex: 1;
+}
+.searchBar > div{
+    margin: 10px;
+}
+.searchBar{
+    background-color:#191919;
+    height: 40px;
+    display: flex;
+    flex: 1;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.searchIcon{
+    margin: 10px;
+   
+    align-content: center;
+}
+
+.searchInput {
+    background-color: #191919;
+    height: 40px;
+    display: flex;
+    border: none;
+    outline: none;
+    color: ghostwhite;
+  
+   flex: 0.8;
+   
+}
+.headerItems{
+    display: flex;
+    align-content: center;
+
+
+}
+.headerItems > p{
+    margin: 5px;
+}
+
+
+.themeIcon {
+    background-color: #191919;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-fit: contain;
+    padding: 15px;
+}
