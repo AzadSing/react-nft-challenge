@@ -19,7 +19,7 @@ function Header() {
                 </div>
                 <input
                     className='searchInput'
-                    placeholder='NFTs and collections'
+                    placeholder='NFTs and collections...'
 
                 />
             </div>
@@ -33,8 +33,12 @@ function Header() {
             <div className='themeIcon'>
                 <img src={themeSwitch} className='themeSwitcher' />
             </div>
-            <div className='buyNft'>
+
+            <div className='loginButton'>
+                GET IN
             </div>
+               
+           
 
 
     </div>);
